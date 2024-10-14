@@ -7,7 +7,7 @@ public class Exercise03 {
     // Esto es una funcion, ya que devuelve un valor
     // TODO ↓: Tiene que devolver el siguiente mensaje: "Hola. Bienvenido " y la cadena de textos que se le pasa por parámetro.
     public static String greetings(String name) {
-        return "Hola, Bienvenido" + name;
+        return "Hola. Bienvenido " + name;
     }
 
     // Esto es una funcion, ya que devuelve un valor
@@ -34,7 +34,7 @@ public class Exercise03 {
     public static void main(String[] args) {
 
         String name = "Sebas";
-        String pass = "Sebas01";
+        String pass = "sebas01";
 
         checkUser(name, pass);
     }

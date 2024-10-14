@@ -32,8 +32,8 @@ class Exercise03Test {
     @Test
     @DisplayName("Test greetings message. Username provided → TestUser")
     void testGreetingMessage(){
-        String user = "TestUser";
-        assertEquals("Hola. Bienvenido TestUser", Exercise03.greetings(user), "Message is not correct.");
+        String user = "Test User";
+        assertEquals("Hola. Bienvenido Test User", Exercise03.greetings(user), "Message is not correct.");
     }
 
     @Test
